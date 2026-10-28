@@ -31,7 +31,7 @@
 | Тип | Файл | Описание |
 | :--- | :--- | :--- |
 | 📦 **Установщик (Setup)** | [**KeyCurator-1.10.0-x64-Setup.exe**](https://github.com/fomas72rus/keycurator-releases/releases/download/v1.10.0/KeyCurator-1.10.0-x64-Setup.exe) | Стандартная установка в систему, интеграция с автозагрузкой, ярлыки на рабочем столе и в меню «Пуск». |
-| 🚀 **Портативная версия (Portable)** | [**KeyCurator-1.10.0-x64-Portable.exe**](https://github.com/fomas72rus/keycurator-releases/releases/download/v1.10.0/KeyCurator-1.10.0-x64-Portable.exe) | Работает без установки (можно запускать с флешки или синхронизируемой папки). |
+| 🚀 **Портативная версия (Portable)** | [**KeyCurator-1.10.0-x64-Portable.exe**](https://github.com/fomas72rus/keycurator-releases/releases/download/v1.10.0/KeyCurator-1.10.0-x64-Portable.exe) | Работает автономно без установки (данные изолированно сохраняются рядом в папке `KeyCurator-Data`). |
 
 > Все релизы, история версий и контрольные суммы доступны на странице [Releases](https://github.com/fomas72rus/keycurator-releases/releases).
 
@@ -85,10 +85,10 @@ Get-FileHash -Path "$HOME\Downloads\KeyCurator-1.10.0-x64-Setup.exe" -Algorithm 
 Эталонные контрольные суммы для версии **v1.10.0**:
 
 ```text
-c9abb182bbe8ad63f86dea2d4c7d739de034fe7f20b068873c851b2a04cb6c98  KeyCurator-1.10.0-x64-Setup.exe
-e9f6eda7db436d1e79cb7ffee8244f422bb180cf91bae48437f473856441fad8  KeyCurator-1.10.0-x64-Portable.exe
-b910dedb22ec436599adac87bd539f3d78408aa353ed08b80351960df6f14dd0  KeyCurator-1.10.0-x64-Setup.exe.blockmap
-fda807e20bcde2a0fe33ed20cdbea9c507cf1d4e6d394a24a1a230eefdea9eef  latest.yml
+b110186fd16c1705b0f978caa9141c91ef1bc94b56cf0c8800dd125fb688e6bf  KeyCurator-1.10.0-x64-Setup.exe
+58fd7a4d9b88769b1d490c455e108f122103af3f67ba902ddffbba378f41072f  KeyCurator-1.10.0-x64-Portable.exe
+473af5b8f2dd2309c0a4882b2c088f36531641d1c58d31a702378a2b3f7e6b61  KeyCurator-1.10.0-x64-Setup.exe.blockmap
+69269eea47167be85cdb33aad5dcf51574b70d78f09b2cd56fc57f739d7b2f58  latest.yml
 ```
 
 > **Примечание**: Сборки пока не подписаны платным коммерческим EV-сертификатом. Windows SmartScreen при первом запуске может показать стандартное синее предупреждение. Нажмите *«Подробнее»* → *«Выполнить в любом случае»*, предварительно сверив SHA-256.
@@ -100,7 +100,7 @@ fda807e20bcde2a0fe33ed20cdbea9c507cf1d4e6d394a24a1a230eefdea9eef  latest.yml
 ### Новая установка:
 1. Скачайте `KeyCurator-1.10.0-x64-Setup.exe` (или `KeyCurator-1.10.0-x64-Portable.exe`).
 2. Запустите инсталлятор и следуйте подсказкам мастера установки.
-3. При первом запуске нажмите **«Создать новое хранилище»**, выберите место сохранения `.sqlite` файла и задайте надёжный мастер-пароль.
+3. При первом запуске нажмите **«Создать новый сейф»**, выберите место сохранения `.sqlite` файла и задайте надёжный мастер-пароль.
 
 ### Обновление с предыдущей версии:
 1. Скачайте новый файл установщика `KeyCurator-1.10.0-x64-Setup.exe`.
