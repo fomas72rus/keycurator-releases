@@ -115,10 +115,10 @@ Get-FileHash -Path "$HOME\Downloads\KeyCurator-1.11.0-x64-Setup.exe" -Algorithm 
 Эталонные контрольные суммы для версии **v1.11.0**:
 
 ```text
-fa80a599ae94e3665999c558d05f5200e9ada95374621684b61015a2a49f44aa  KeyCurator-1.11.0-x64-Setup.exe
-b0700d65426e247b75e6566ce590cfa26cedfeb58cc5f6574c59acbbedc53f8e  KeyCurator-1.11.0-x64-Portable.exe
-adcca9dd2e7354cc95dc7d1978452a4fd5b685e9d590207da7d543098cb58ba0  KeyCurator-1.11.0-x64-Setup.exe.blockmap
-ef4dbc6b0e135954d5705f5321cfa264a78eac28b186b0711ff5da46338684db  latest.yml
+5d4b9195982a7a36c74b4a8a539c48b1c1fe53b4bbbe41f52eb04827528348e0  KeyCurator-1.11.0-x64-Setup.exe
+50e139fd7b5cfcee3ffb7cc3769e803efe4dc385b7591b64400f2ed627311e1e  KeyCurator-1.11.0-x64-Portable.exe
+1929a0c211b44078095348f1f52a2312346703fe255000d0f0c7273bc133638f  KeyCurator-1.11.0-x64-Setup.exe.blockmap
+143687f2da60c3ca68a82f6182b02fdad063f603b8704ccdbf9585e1d3f4b735  latest.yml
 ```
 
 > **Примечание**: Сборки пока не подписаны платным коммерческим EV-сертификатом. Windows SmartScreen при первом запуске может показать стандартное синее предупреждение. Нажмите *«Подробнее»* → *«Выполнить в любом случае»*, предварительно сверив SHA-256.
